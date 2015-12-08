@@ -90,6 +90,7 @@ public class GetRestaurantsNearby extends HttpServlet {
 			out.flush();
 			out.close();
 		} catch (JSONException e) {
+//			e.printStackTrace();
 			e.printStackTrace();
 		}
 	}
